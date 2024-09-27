@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Badilles Portfolio</title>
+    <link rel="icon" href="https://cdn.pngedits.com/uploads/thumbnail/smiley-face-emoji-png-images-hd-download-11626606130lkkpayeduz.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <section id="home">
+        <header>
+            <a href="#"><img src="https://cdn.pngedits.com/uploads/thumbnail/smiley-face-emoji-png-images-hd-download-11626606130lkkpayeduz.png" alt="" style="width: 80px; height: 50px;"></a>
+            <ul id="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+            </ul>
+            <main>
+                <img src="moon.png" id="iconmode">
+            </main>
+        </header>
+
+        <div class="welcome-container">
+            <h1>Home </h1>
+            <img src="img1.jpg" alt="Image Description" class="side-image" width="300px">
+        </div>
+        <h2> HELLO THERE! WELCOME TO MY SHORT AND SIMPLE PORTFOLIO WEBSITE! </h2>
+    </section>
+    
+    <section id="about">    
+        <div class="welcome-container2">
+        <h1>About</h1>
+        <img src="img2.jpg" alt="Image Description" class="side-image" width="300px">
+        </div>
+        <p> Hello Everyone! In this section of my portfolio, I'll share a bit about myself and my short project. <br>
+            <br>
+            My name is Paul Micah R. Badilles, 20 years old, and currently studying Bachelor of Science in Information Technology or BSIT in Holy Cross of Davao College.<br>
+            <br>
+            I am an introverted person but I am not snob and I am also an easy-going person and very approachable. <br>
+            <br>
+            Mostly my hobbies are sleeping and overthinking. I am also a good imaginative person (delusional). <br>
+            <br>
+            This short project is an activity given by our professor to enhance our skills in Front-end applications. <br>
+            <br>
+            As you can see, my project looks substandard because I suck. That's why I will try to learn more and improve my learnings in this subject.
+            <br>
+        </p>
+    </section>
+
+    <section id="contacts">
+        <div class="welcome-container3">
+        <h1>Contacts</h1>
+        <img src="https://i.imgflip.com/78pdrd.png" alt="Image Description" class="side-image" width="300px">
+            <p>If you want to reach out to me, you can contact me through my social media accounts: <br> 
+                <br>
+                <b>Facbook:</b> <a href="https://www.facebook.com/paulbadillesr" target="_blank" rel="noopener noreferrer">Paul Micah</a> <br>
+                <b>Instagram:</b> <a href="https://www.instagram.com/mr.reddddddd/" target="_blank" rel="noopener noreferrer">@mr.reddddddd</a> <br>
+                <b>Gmail:</b> <a href="https://www.gmail.com" target="_blank" rel="noopener noreferrer">Gmail</a> <br>
+                <b>Phone Number:</b> 09502238935
+            </p>
+        </div>
+    </section>
+
+<script>
+
+    var iconmode = document.getElementById("iconmode");
+
+    iconmode.onclick = function(){
+        document.body.classList.toggle("dark-theme");
+        if(document.body.classList.contains("dark-theme")){
+            iconmode.src = "sun.png";
+        }else{
+            iconmode.src = "moon.png";
+        }
+    }
+
+</script>
+
+</html>

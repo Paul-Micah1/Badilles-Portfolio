@@ -1,0 +1,152 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+:root{
+    --primary-color: #8899A6;
+    --secondary-color: #212121;
+}
+
+.dark-theme{
+    --primary-color: #192734;
+    --secondary-color: #E4E6EB;
+}
+
+body{
+    font-size: 100%;
+    font-family: sans-serif;
+    background-color: var(--primary-color);
+}
+
+div, section, span, ul, li, a, header{
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+    background-color: var(--primary-color);
+}
+
+#iconmode {
+    width: 30px;
+    cursor: pointer;
+}
+
+header ul{
+    flex: 1;
+    text-align: right;
+}
+
+#menu li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+}
+
+#menu li a{
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-size: 20px;
+}
+#home h2 {
+    position: absolute;
+    top: 55%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: var(--secondary-color);
+    font-size: 30px;
+    width: 30%; 
+    text-align: center;
+}
+
+
+.welcome-container {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    height: 100vh; 
+    background-color: var(--primary-color);
+}
+
+.side-image {
+    width: 300px; 
+    margin-left: 600px;
+}
+
+.welcome-container2 {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    height: 100vh; 
+    background-color: var(--primary-color);
+}
+
+.side-image {
+    width: 300px; 
+    margin-left: 600px;
+}
+#about p {
+    color: var(--secondary-color);
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+    position: absolute;
+    top: 60%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    width: 30%; 
+    margin: 0 auto;
+}
+
+#contacts p {
+    color: var(--secondary-color);
+    font-size: 20px;
+    text-align: start;
+    margin-top: 20px;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    width: 20%; 
+    margin: 0 auto;
+}
+
+.welcome-container3 {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    height: 100vh; 
+    background-color: var(--primary-color);
+}
+
+.side-image {
+    width: 300px; 
+    margin-left: 600px;
+}
+
+section{
+    width: 100%;
+    float: left;
+    height: 100vh;
+    position: relative;
+}
+
+h1{
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: var(--secondary-color);
+}
